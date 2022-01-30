@@ -1,6 +1,7 @@
 // the config
 browserBlockedPage = "html/blocked.html";
 unsupportedBrowsers = ["IE", "edge"];
+unsupportedBrowserAction = block; // options: block or warn
 
 function detectBrowser() {
     if ((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1) {
@@ -37,4 +38,12 @@ function redirectIfUnsupportedBrowser() {
 }
 
 detectBrowser();
-redirectIfUnsupportedBrowser();
+
+// if unsupportedBrowserAction is block, run redirectIfUnsupportedBrowser
+if (unsupportedBrowserAction == block) {
+    redirectIfUnsupportedBrowser();
+}
+// if unsupportedBrowserAction is warn, make alert box
+else if (unsupportedBrowserAction == warn) {
+    alert("This browser is not supported. Please use a supported browser.");
+}
