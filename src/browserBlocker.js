@@ -40,10 +40,10 @@ function redirectIfUnsupportedBrowser() {
 detectBrowser();
 
 // if unsupportedBrowserAction is block, run redirectIfUnsupportedBrowser
-if (unsupportedBrowserAction == block) {
+if (unsupportedBrowserAction == "block") {
     redirectIfUnsupportedBrowser();
 }
 // if unsupportedBrowserAction is warn, make alert box
-else if (unsupportedBrowserAction == warn) {
+else if (unsupportedBrowserAction == "warn") {
     alert("This browser is not supported. Please use a supported browser.");
 }
