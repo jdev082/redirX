@@ -1,0 +1,23 @@
+{
+  "name": "redirx",
+  "version": "1.1.0-devPreview",
+  "description": "redirX, unsupported browser block framework.",
+  "main": "src/browserBlock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenDev/redirX.git"
+  },
+  "keywords": [
+    "framework",
+    "js"
+  ],
+  "author": "JaydenDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaydenDev/redirX/issues"
+  },
+  "homepage": "https://github.com/JaydenDev/redirX#readme"
+}

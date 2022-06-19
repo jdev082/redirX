@@ -1,7 +1,4 @@
-// the config
-browserBlockedPage = "html/blocked.html";
-unsupportedBrowsers = ["IE", "edge"];
-unsupportedBrowserAction = "block"; // options: block or warn
+// the config is to be done in redirX.config.js
 
 function detectBrowser() {
     if ((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1) {

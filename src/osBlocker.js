@@ -1,6 +1,5 @@
-// config
-blockedOperatingSystems = ["windows"];
-blockedOSPage = "html/blocked-os.html";
+// this component is deprecated
+// the config is to be done in redirX.config.js
 
 // if user is using windows set os to windows the last part of the userAgent is the version
 // if user is using mac set os to mac the last part of the userAgent is the version
